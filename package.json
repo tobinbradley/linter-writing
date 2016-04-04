@@ -1,0 +1,61 @@
+{
+  "name": "linter-writing",
+  "main": "lib/index.js",
+  "version": "1.0.0",
+  "description": "Atom markdown and writing style linter",
+  "scripts": {},
+  "author": "Tobin Bradley",
+  "keywords": [],
+  "activationCommands": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobinbradley/linter-writing.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": "^1.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^3.0.7",
+    "nlcst-search": "^1.2.0",
+    "nlcst-to-string": "^1.1.0",
+    "quotation": "^1.0.1",
+    "remark": "^4.0.0",
+    "remark-lint": "^3.0.0",
+    "remark-retext": "^1.1.0",
+    "retext": "^2.0.0",
+    "retext-english": "^1.0.1",
+    "retext-equality": "^2.2.1",
+    "retext-profanities": "^1.1.0",
+    "retext-readability": "^1.3.0",
+    "retext-simplify": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "babel-eslint": "^4.1.6"
+  },
+  "eslintConfig": {
+    "rules": {
+      "comma-dangle": [
+        2,
+        "never"
+      ],
+      "no-console": 0
+    },
+    "parser": "babel-eslint",
+    "globals": {
+      "atom": true
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}
