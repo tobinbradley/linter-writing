@@ -37,12 +37,12 @@ module.exports = {
             'host' // technical
         ]
     },
-    lintConfig: {        
-		"maximum-line-length": false			
+    lintConfig: {
+		"maximum-line-length": false
     },
 	readabilityConfig: {
-		'age': 16
-	}, 
+		'age': 18
+	},
 	profanitiesConfig: {
 		ignore: [
 			'killing'
