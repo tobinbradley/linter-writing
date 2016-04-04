@@ -1,7 +1,7 @@
 {
   "name": "linter-writing",
   "main": "lib/index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Atom markdown and writing style linter",
   "scripts": {},
   "author": "Tobin Bradley",
