@@ -41,7 +41,9 @@ module.exports = {
 		"maximum-line-length": false
     },
 	readabilityConfig: {
-		'age': 18
+		'age': 18,
+        'minWords': 12,
+        'threshold': 5
 	},
 	profanitiesConfig: {
 		ignore: [

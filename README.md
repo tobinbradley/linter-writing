@@ -13,4 +13,6 @@ The package uses:
 *   [retext-readability](https://github.com/wooorm/retext-readability)
 *   [retext-simplify](https://github.com/wooorm/retext-simplify)
 
-Credit to [linter-markdown](https://github.com/AtomLinter/linter-markdown) and [retext-mapbox-standard](https://github.com/mapbox/retext-mapbox-standard) for code and inspiration. 
+Hat tip to [linter-markdown](https://github.com/AtomLinter/linter-markdown) and [retext-mapbox-standard](https://github.com/mapbox/retext-mapbox-standard) for code and inspiration.
+
+Hat tip to me and you for code and inspiration.
