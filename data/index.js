@@ -42,12 +42,13 @@ module.exports = {
     },
 	readabilityConfig: {
 		'age': 18,
-        'minWords': 12,
+        'minWords': 10,
         'threshold': 5
 	},
 	profanitiesConfig: {
 		ignore: [
-			'killing'
+			'killing',
+            'cancer'
 		]
 	},
 	myrulesConfig: {
